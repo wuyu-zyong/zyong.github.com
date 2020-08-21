@@ -1,0 +1,2 @@
+ocr:
+  factory: 'com.zyong.ocr.core.baiduyun.BaiduyunOcr'
