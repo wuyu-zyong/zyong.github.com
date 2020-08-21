@@ -1,23 +1,22 @@
 # JAVA鼠标键盘脚本
 
 #### 介绍
-JAVA鼠标键盘脚本
+JAVA文字识别
 
 #### 软件架构
-软件架构说明
-
+使用JAVA的窗口截图工具，后端调用的是百度云OCR文字识别接口。
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  百度云上面申请自己的百度云OCR产品，将密钥等信息填入ocr-common的配置文件（APIConfigConstant.java）中
+2.  mvn clean install package
+3.  java -jar ocr-gui-1.0.0.jar
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  点击截图
+2.  选取区域
+3.  识别结果自动写入剪切板
 
 #### 参与贡献
 
